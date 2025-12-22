@@ -552,8 +552,10 @@ p {
     align-items: flex-start;
   }
 
-  .footer {
-    flex-direction: column;
-    gap: 10px;
-  }
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
 }
