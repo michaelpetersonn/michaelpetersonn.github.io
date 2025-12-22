@@ -4,167 +4,158 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Michael Peterson | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="tranfavicon.png">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="background">
-    <div class="glow glow-1"></div>
-    <div class="glow glow-2"></div>
-    <div class="grain"></div>
-  </div>
-
   <header class="topbar">
-    <div class="logo">MP</div>
+    <div class="logo">Michael Peterson</div>
     <nav class="nav">
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="ghost-button" href="mailto:michael@example.com">Email me</a>
+    <a class="ghost-button" href="mailto:petersonmichaelc@gmail.com">Email me</a>
   </header>
 
   <main>
     <section class="hero section">
-      <div class="eyebrow">Product-minded developer</div>
-      <h1>Hi, I'm Michael Peterson.</h1>
-      <p class="lede">
-        I build polished web experiences that balance aesthetics, performance, and clarity.
-        I love teaming up with people who want their product to feel intentional.
-      </p>
-      <div class="cta-row">
-        <a class="primary-button" href="#work">See my work</a>
-        <a class="secondary-button" href="mailto:michael@example.com">Let's talk</a>
-      </div>
-      <div class="meta">
-        <span class="pill">Based in [Your City]</span>
-        <span class="pill">Available for new opportunities</span>
-      </div>
-      <div class="socials">
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+      <div class="hero-grid hero-simple">
+        <div class="hero-copy">
+          <div class="eyebrow">Data &amp; Business Intelligence Analyst</div>
+          <h1>Michael Peterson</h1>
+          <p class="lede">I turn raw data into clear, actionable stories. Quick learner, detail-forward, and focused on BI solutions that help people decide faster.</p>
+          <div class="cta-row">
+            <a class="primary-button" href="mailto:petersonmichaelc@gmail.com">Email</a>
+            <a class="secondary-button" href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+          <div class="meta">
+            <span class="pill">Provo, UT</span>
+            <span class="pill">Open to internships &amp; projects</span>
+          </div>
+        </div>
+        <div class="headshot-card reveal">
+          <div class="headshot-frame">
+            <img src="headshot.jpg" alt="Michael Peterson headshot">
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="work" class="section">
+    <section id="experience" class="section">
       <div class="section-header">
-        <div class="eyebrow">Selected work</div>
-        <h2>Recent projects I'm proud of</h2>
+        <div class="eyebrow">Experience</div>
+        <h2>Recent roles</h2>
       </div>
-      <div class="grid cards">
+      <div class="stack">
         <article class="card reveal">
-          <div class="card-top">
-            <span class="pill pill-ghost">Featured</span>
-            <span class="tag">Web app</span>
-          </div>
-          <h3>Collaboration Hub</h3>
-          <p>A real-time workspace for distributed teams with live presence, comments, and playful microinteractions to keep the team in sync.</p>
+          <h3>Teaching Assistant — IS 201</h3>
+          <p class="muted">BYU Marriott School of Business · Aug 2025 – Present</p>
+          <p>Taught 385+ students SQL, Tableau, HTML/CSS, VBA, and Excel; built labs and answered 20–40 weekly technical questions.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Web Developer / Content Manager</h3>
+          <p class="muted">BYU School of Accountancy · Mar 2025 – Present</p>
+          <p>Restructured 50+ articles to lift SEO and improved load speed 15% across four Webflow sites serving 10K+ users.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Deliverables &amp; Reports Manager</h3>
+          <p class="muted">Ohana Luggage LLC · Jan 2025 – Apr 2025</p>
+          <p>Launched the WordPress site, grew traffic from 0 to 300 monthly visitors, and automated booking and payments.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Volunteer Representative — Spanish Fluency</h3>
+          <p class="muted">San Pedro Sula, Honduras · Sep 2022 – Aug 2024</p>
+          <p>Delivered 100+ trainings, facilitated conflict resolution, and led teams in cross-cultural, high-pressure settings.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Projects</div>
+        <h2>My Project Experience</h2>
+      </div>
+      <div class="project-grid">
+        <article class="card reveal">
+          <h3>Ella Rises</h3>
+          <p class="muted">Data insights for a youth non-profit</p>
+          <p>Built a dashboard to track program engagement and outcomes, spotlighting metrics that helped leaders focus resources where they mattered most.</p>
           <div class="tags">
-            <span class="tag">TypeScript</span>
-            <span class="tag">React</span>
-            <span class="tag">WebSockets</span>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="text-link">Case study</a>
-            <a href="#" class="text-link">Live demo</a>
+            <span class="tag">SQL</span>
+            <span class="tag">Tableau</span>
+            <span class="tag">Data Storytelling</span>
           </div>
         </article>
-
         <article class="card reveal">
-          <div class="card-top">
-            <span class="pill pill-ghost">Client</span>
-            <span class="tag">Brand site</span>
-          </div>
-          <h3>Minimalist Atelier</h3>
-          <p>A bold, editorial-style site for a design studio with immersive imagery, smooth page transitions, and a headless CMS backend.</p>
+          <h3>EY Case</h3>
+          <p class="muted">Analytics case competition</p>
+          <p>Modeled business scenarios and delivered a concise BI narrative, tying recommendations to clear visuals and defendable assumptions.</p>
           <div class="tags">
-            <span class="tag">Next.js</span>
-            <span class="tag">Headless CMS</span>
-            <span class="tag">Animations</span>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="text-link">Preview</a>
-            <a href="#" class="text-link">Process</a>
+            <span class="tag">Power BI</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Financial Modeling</span>
           </div>
         </article>
-
         <article class="card reveal">
-          <div class="card-top">
-            <span class="pill pill-ghost">Experiment</span>
-            <span class="tag">Creative coding</span>
-          </div>
-          <h3>Data Stories</h3>
-          <p>An interactive narrative that turns complex metrics into approachable visuals, with gentle motion guiding readers through the story.</p>
+          <h3>Aimes Data</h3>
+          <p class="muted">Real estate pricing study</p>
+          <p>Analyzed property data to identify pricing drivers and surfaced a clean set of features that improved model accuracy and stakeholder understanding.</p>
           <div class="tags">
-            <span class="tag">D3.js</span>
-            <span class="tag">GSAP</span>
-            <span class="tag">Storytelling</span>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="text-link">See it</a>
-            <a href="#" class="text-link">GitHub</a>
+            <span class="tag">Python (Pandas)</span>
+            <span class="tag">SQL</span>
+            <span class="tag">EDA</span>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="about" class="section two-col">
-      <div>
-        <div class="eyebrow">About</div>
-        <h2>What I bring to a team</h2>
-        <p class="lede">
-          I ship thoughtful products end-to-end: understanding the user, planning the experience,
-          and delivering a polished build that is easy to evolve.
-        </p>
-        <ul class="list">
-          <li>Translate product goals into roadmaps and prototypes.</li>
-          <li>Design component systems with accessibility baked in.</li>
-          <li>Write resilient frontends with clean, documented code.</li>
-          <li>Collaborate closely with designers, PMs, and stakeholders.</li>
-        </ul>
+    <section id="skills" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Skills</div>
+        <h2>Tools &amp; tech</h2>
       </div>
       <div class="panel reveal">
-        <h3>Recent highlights</h3>
-        <div class="highlight">
-          <div class="dot"></div>
-          <div>
-            <div class="label">Improved conversion by 23%</div>
-            <p>Revamped onboarding with clearer messaging and faster paths to value.</p>
-          </div>
+        <div class="tags">
+          <span class="tag">SQL (MySQL, PostgreSQL)</span>
+          <span class="tag">Python (Pandas)</span>
+          <span class="tag">Tableau</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Advanced Excel</span>
+          <span class="tag">VBA</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Webflow</span>
+          <span class="tag">WordPress</span>
+          <span class="tag">AWS</span>
+          <span class="tag">Spanish Fluency</span>
         </div>
-        <div class="highlight">
-          <div class="dot"></div>
-          <div>
-            <div class="label">Cut load times by 40%</div>
-            <p>Shipped performance tuning: bundle splitting, image optimization, and caching.</p>
-          </div>
-        </div>
-        <div class="highlight">
-          <div class="dot"></div>
-          <div>
-            <div class="label">Built a design system</div>
-            <p>Created a reusable component library with docs and tokens to speed up shipping.</p>
-          </div>
-        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Education</div>
+        <h2>Brigham Young University</h2>
+      </div>
+      <div class="card reveal">
+        <p class="muted">B.S. Information Systems — Data Analytics Emphasis (STEM) · GPA 3.8 · Apr 2027</p>
+        <p>Relevant coursework: Spreadsheets &amp; Business Analysis, Python Programming, Exploratory Data Analysis, Database Systems, Enterprise Application Development, Machine Learning. Association of Information Systems member.</p>
       </div>
     </section>
 
     <section id="contact" class="section contact reveal">
-      <div class="eyebrow">Collaborate</div>
-      <h2>Let's build something intentional.</h2>
-      <p class="lede">
-        Open to product teams, agencies, and founders who want design-forward, reliable builds.
-      </p>
+      <div class="eyebrow">Contact</div>
+      <h2>Let’s work together.</h2>
+      <p class="lede">Clean dashboards, reliable automation, and BI that supports decisions.</p>
       <div class="cta-row">
-        <a class="primary-button" href="mailto:michael@example.com">Email me</a>
-        <a class="secondary-button" href="https://cal.com" target="_blank" rel="noreferrer">Book a call</a>
-      </div>
-      <div class="contact-meta">
-        <span class="pill">Based in [Your City]</span>
-        <span class="pill">Time zone: [Your Time Zone]</span>
+        <a class="primary-button" href="mailto:petersonmichaelc@gmail.com">Email</a>
+        <a class="secondary-button" href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
     </section>
   </main>
@@ -172,9 +163,8 @@
   <footer class="footer">
     <div>Michael Peterson</div>
     <div class="footer-links">
-      <a href="mailto:michael@example.com">Email</a>
-      <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-      <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="mailto:petersonmichaelc@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
   </footer>
 
