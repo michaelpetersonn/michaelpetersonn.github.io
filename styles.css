@@ -162,15 +162,24 @@ h1 {
   margin: 30px auto 60px;
   padding: 0 20px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   color: #666;
   font-size: 14px;
 }
 
 .footer-links {
-  display: flex;
+  display: inline-flex;
   gap: 12px;
+  justify-content: center;
+  order: 1;
+}
+
+.footer > div:first-child {
+  order: 2;
 }
 
 .project-grid {
