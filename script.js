@@ -21,3 +21,13 @@ if (revealElements.length) {
     revealElements.forEach((el) => observer.observe(el));
   }
 }
+
+const emailLinks = document.querySelectorAll("[data-email-user][data-email-domain]");
+
+emailLinks.forEach((link) => {
+  const { emailUser, emailDomain, emailLabel } = link.dataset;
+  const email = `${emailUser}@${emailDomain}`;
+  const label = emailLabel || email;
+  link.href = `mailto:${email}`;
+  link.textContent = label;
+});
