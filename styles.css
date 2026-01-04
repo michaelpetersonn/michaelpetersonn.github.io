@@ -78,6 +78,8 @@ a:hover {
 
 .profile-photo {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .headshot {
@@ -85,6 +87,7 @@ a:hover {
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 20%;
 }
 
 h1 {
