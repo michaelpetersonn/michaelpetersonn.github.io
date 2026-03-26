@@ -270,12 +270,37 @@ h1 {
   margin-bottom: 12px;
 }
 
+/* Page spacing utilities */
+.page-top {
+  padding-top: 64px;
+}
+
+.page-bottom {
+  padding-bottom: 64px;
+}
+
+.summary-spaced {
+  margin-bottom: 24px;
+}
+
+.summary-tight {
+  margin-bottom: 8px;
+}
+
 /* About page */
 .about-intro {
   font-size: 1.05rem;
   line-height: 1.75;
   color: var(--text-secondary);
   max-width: 600px;
+}
+
+.about-intro-spaced {
+  margin-top: 20px;
+}
+
+.about-cta {
+  margin-top: 24px;
 }
 
 .stat-grid {
@@ -362,6 +387,16 @@ h1 {
 .btn-outline:hover {
   background: var(--accent-light);
   opacity: 1;
+}
+
+/* Honeypot (hidden from humans) */
+.honeypot {
+  display: none;
+}
+
+.honeypot-wrap {
+  position: absolute;
+  left: -9999px;
 }
 
 /* Contact Form */

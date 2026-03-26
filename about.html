@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; form-action https://formsubmit.co; frame-ancestors 'none';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>About | Michael Peterson</title>
   <link rel="icon" type="image/png" href="tranfavicon.png">
   <link rel="stylesheet" href="styles.css">
@@ -23,10 +26,10 @@
         <h1>Hi, I'm Michael.</h1>
         <p class="subtitle">Data &amp; BI Analyst</p>
         <p class="summary">I Seek Discomfort and Choose Faith Over Fear.</p>
-        <p class="about-intro" style="margin-top: 20px;">
+        <p class="about-intro about-intro-spaced">
           Currently pursuing a BS in Information Systems at Brigham Young University, eager to dive into the world of data and technology. With a growing skill set in Python, SQL, VBA, and Tableau, I love exploring how data can be transformed into meaningful insights. I'm passionate about solving problems and uncovering trends that help businesses thrive, and I'm excited to make data work for people in practical, impactful ways.
         </p>
-        <a class="btn btn-primary" href="projects.html" style="margin-top: 24px;">View Projects</a>
+        <a class="btn btn-primary about-cta" href="projects.html">View Projects</a>
       </div>
       <div class="headshot-wrap">
         <img class="headshot" src="headshot.jpg" alt="Michael Peterson headshot">
@@ -54,10 +57,10 @@
 
   <section class="container section">
     <h2 class="section-header">Contact</h2>
-    <p class="summary" style="margin-bottom: 24px;">I'm seeking opportunities to collaborate with inspiring teams and turn data into real-world wins. Let's connect!</p>
+    <p class="summary summary-spaced">I'm seeking opportunities to collaborate with inspiring teams and turn data into real-world wins. Let's connect!</p>
     <div class="contact-grid">
       <a class="contact-link" href="contact.html">Send me a message</a>
-      <a class="contact-link" href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a class="contact-link" href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </section>
 
@@ -65,7 +68,7 @@
     <div>Michael C. Peterson</div>
     <div class="footer-links">
       <a href="contact.html">Contact</a>
-      <a href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </footer>
 
