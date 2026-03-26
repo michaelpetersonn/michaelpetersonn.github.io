@@ -82,7 +82,7 @@
       return;
     }
 
-    // 6. Submit via Formsubmit AJAX
+    // 6. Submit via Formsubmit AJAX (falls back to regular POST if not yet activated)
     submitBtn.disabled = true;
     submitBtn.textContent = "Sending…";
 
@@ -109,13 +109,14 @@
             submitBtn.disabled = true;
           }, 3000);
         } else {
-          throw new Error("Submission failed");
+          // Not yet activated — fall back to regular form POST
+          // so Formsubmit can show the activation/confirmation page
+          form.submit();
         }
       })
       .catch(() => {
-        showStatus("Something went wrong. Please try again later.", "error");
-        submitBtn.disabled = false;
-        submitBtn.textContent = "Send Message";
+        // Network or parse error — fall back to regular form POST
+        form.submit();
       });
   });
 
