@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Michael Peterson</title>
+  <link rel="icon" type="image/png" href="tranfavicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a class="nav-email-btn active" href="contact.html">Contact</a>
+  </header>
+
+  <div class="divider"><hr></div>
+
+  <main class="container" style="padding-top: 64px; padding-bottom: 64px;">
+    <h1>Get in Touch</h1>
+    <p class="summary" style="margin-bottom: 32px;">Have a question or want to work together? Fill out the form below and I'll get back to you.</p>
+
+    <form id="contact-form" class="contact-form" action="https://formsubmit.co/petersonmichaelc@gmail.com" method="POST" novalidate>
+      <!-- Formsubmit config -->
+      <input type="hidden" name="_subject" value="New message from michael-peterson.com">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://michael-peterson.com/contact.html?sent=true">
+
+      <!-- Honeypot field — hidden from humans, bots fill it out -->
+      <input type="text" name="_honey" style="display:none;" tabindex="-1" autocomplete="off">
+
+      <!-- Our own honeypot as backup -->
+      <div style="position:absolute;left:-9999px;" aria-hidden="true">
+        <label for="website">Website</label>
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="What would you like to say?"></textarea>
+      </div>
+
+      <!-- Human verification — simple math challenge -->
+      <div class="form-group">
+        <label for="captcha" id="captcha-label">Verify you're human: <span id="captcha-question"></span></label>
+        <input type="text" id="captcha" name="captcha" required autocomplete="off" placeholder="Your answer">
+      </div>
+
+      <div id="form-status" class="form-status"></div>
+
+      <button type="submit" id="submit-btn" class="btn btn-primary" disabled>Send Message</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div>Michael C. Peterson</div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
