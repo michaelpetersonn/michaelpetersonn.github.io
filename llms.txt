@@ -1,0 +1,20 @@
+# Michael C. Peterson
+
+> Data & Business Intelligence Analyst and BYU Information Systems student (graduating April 2027) specializing in SQL, Python, Tableau, and Power BI.
+
+Michael C. Peterson is a Data & BI Analyst at Brevium, a Utah-based healthcare software company focused on patient reactivation. He is pursuing a B.S. in Information Systems (Data Analytics emphasis, STEM) at Brigham Young University with a 3.8 GPA. As a BYU Marriott School of Business teaching assistant, he has taught SQL, Tableau, Excel, HTML/CSS, and VBA to 385+ students. He has maintained Webflow sites serving 10K+ monthly users and restructured 50+ articles for SEO at BYU School of Accountancy.
+
+## Skills
+
+SQL (MySQL, PostgreSQL), Python (Pandas), Tableau, Power BI, Advanced Excel, VBA, JavaScript, HTML/CSS, Node.js, Webflow, WordPress, AWS, Spanish (fluent)
+
+## Pages
+
+- [Home](https://michael-peterson.com/): Professional overview, experience, skills, and education
+- [About](https://michael-peterson.com/about.html): Bio, career background, and quantified achievements
+- [Projects](https://michael-peterson.com/projects.html): Portfolio work — Ella Rises dashboard, EY Case Competition, Ames Data real estate study
+- [Contact](https://michael-peterson.com/contact.html): Contact form and LinkedIn profile
+
+## Social
+
+- LinkedIn: https://www.linkedin.com/in/michaelpetersonn
