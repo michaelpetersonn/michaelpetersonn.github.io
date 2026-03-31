@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
-  <link rel="preload" as="image" href="headshot.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="headshot.avif" type="image/avif" fetchpriority="high">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
@@ -38,7 +38,7 @@
       "jobTitle": "Data & BI Analyst",
       "description": "Data and BI Analyst at Brevium and BYU Marriott TA who has supported 10,000+ monthly users and taught 385+ students. B.S. Information Systems candidate, BYU, expected April 2027, 3.8 GPA.",
       "url": "https://michael-peterson.com",
-      "sameAs": ["https://www.linkedin.com/in/michaelpetersonn"]
+      "sameAs": ["https://www.linkedin.com/in/michaelpetersonn", "https://github.com/michaelpetersonn"]
     }
   }
   </script>
@@ -65,7 +65,11 @@
         <a class="btn btn-primary about-cta" href="/projects.html">View Projects</a>
       </div>
       <div class="headshot-wrap">
-        <img class="headshot" src="headshot.jpg" alt="Michael Peterson, Data and Business Intelligence Analyst" width="160" height="160" loading="eager" fetchpriority="high">
+        <picture>
+          <source srcset="headshot.avif" type="image/avif">
+          <source srcset="headshot.webp" type="image/webp">
+          <img class="headshot" src="headshot.jpg" alt="Michael Peterson, Data and Business Intelligence Analyst" width="160" height="160" loading="eager" fetchpriority="high">
+        </picture>
       </div>
     </div>
   </main>
@@ -94,6 +98,7 @@
     <div class="contact-grid">
       <a class="contact-link" href="/contact.html">Send me a message</a>
       <a class="contact-link" href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="contact-link" href="https://github.com/michaelpetersonn" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
   </section>
 
@@ -102,6 +107,7 @@
     <div class="footer-links">
       <a href="contact.html">Contact</a>
       <a href="https://www.linkedin.com/in/michaelpetersonn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/michaelpetersonn" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
   </footer>
 

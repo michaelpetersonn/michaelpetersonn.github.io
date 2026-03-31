@@ -18,3 +18,4 @@ SQL (MySQL, PostgreSQL), Python (Pandas), Tableau, Power BI, Advanced Excel, VBA
 ## Social
 
 - LinkedIn: https://www.linkedin.com/in/michaelpetersonn
+- GitHub: https://github.com/michaelpetersonn
