@@ -66,7 +66,7 @@ a:hover {
   position: relative;
 }
 
-.nav a.active::after {
+.nav a.active:not(.nav-email-btn)::after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -167,6 +167,24 @@ h1 {
   font-size: 1rem;
   line-height: 1.7;
   max-width: 560px;
+}
+
+/* Hero CTA */
+.hero-cta {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+/* Projects CTA */
+.projects-cta {
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 /* Sections */
